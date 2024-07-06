@@ -22,7 +22,6 @@ app.get("/*", (req, res, next) => {
     const postId = req.query.id;
     // const post = getPostById(postId);
     // if (!post) return res.status(404).send("Post not found");
-
     //API Call
     console.log("loadeddd");
     axios
